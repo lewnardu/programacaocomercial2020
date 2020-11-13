@@ -1,0 +1,23 @@
+# Para ignorar todos os arquivos e sub-pastas da pasta virtual/
+# com exceção da pasta do projeto sistema/
+
+virtual/bin/
+virtual/include/
+virtual/lib/
+virtual/share/
+
+# Para ignorar todos os arquivos e sub-pastas da pasta phpmyadmin/
+virtual/sistema/phpmyadmin/
+
+# Para ignorar o arquivo abaixo
+virtual/sistema/manage.py
+
+# Para ignorar todos os arquivo de configuração do diretório da App estoque/
+virtual/sistema/estoque/__init__.py
+virtual/sistema/estoque/migrations/__init__.py
+virtual/sistema/estoque/__pycache__/
+
+# Para ignorar arquivos de configuração do projeto
+virtual/sistema/sistema/__init__.py
+virtual/sistema/sistema/settings.py
+virtual/sistema/sistema/__pychache/
